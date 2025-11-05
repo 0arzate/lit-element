@@ -9,36 +9,7 @@
 		<title>Lit Element</title>
 	</head>
 	<body>
-		<p class="title">Lit Element</p>
-		<div class="app-container">
-			<app-input
-				label="Nombre"
-				value="Osvaldo Arzate Santiago"
-				readonly
-			></app-input>
-			<app-input label="Apellido"></app-input>
-			<app-input label="Email" type="email"></app-input>
-			<br />
-			<br />
-			<app-button>
-				<span>Enviar</span>
-			</app-button>
-			<app-button disabled>
-				<span>Enviar</span>
-			</app-button>
-			<br />
-			<br />
-			<my-component nombre="Maria" genero="F">
-				<h1 slot="title">Titulo</h1>
-				<p slot="subtitle">Subti<div slot="content">
-				<p slot="content">Contenido</p>
-			</my-component>
-			<p class="five"></p>
-			<p class="five"></p>
-			<p class="five"></p>
-			<p class="five"></p>
-			<p class="five"></p>
-		</div>
+		<home-page></home-page>
 		<script src="index.js" type="module"></script>
 	</body>
 </html>
