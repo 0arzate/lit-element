@@ -1,4 +1,5 @@
 import { html, LitElement } from 'lit-element'
+import { styles } from './rick-morty-lit.css'
 
 class RickMortyLuis extends LitElement {
   constructor() {
@@ -14,6 +15,10 @@ class RickMortyLuis extends LitElement {
       favorites: { type: Array },
       search: { type: String }
     }
+  }
+
+  static get styles() {
+    return styles
   }
 
   async connectedCallback() {
