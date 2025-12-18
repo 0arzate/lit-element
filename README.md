@@ -1,2 +1,1 @@
-# lit-element
-This is a project to practice lit element v1
+https://rick-morty-luis.vercel.app/
